@@ -1,27 +1,33 @@
-INSERT INTO departments (department name)
-('IT')
-('Finance')
-('Marketing')
-('Sales')
-('Engineering')
-('Legal')
-('Customer Service')
-('Product Management')
-('Research and Development')
+USE employee_db;
 
-INSERT INTO roles (title, salary, department_id)
+-- Insert data into the department table
+INSERT INTO department (name)
 VALUES
-(Chiet Executive Officer, 200000.00, 1),
-(Marketing Manager, 100000.00, 2),
-(HR Director, 90000.00, 3),
-(Sales Manager, 80000.00, 4),
-(Engineering Manager, 80000.00, 5),
-(Legal Counsel, 80000.00, 6),
-(Customer Service Manager, 70000.00, 7),
-(Product Manager, 70000.00, 8),
-(Research and Development Manager, 70000.00, 9),
+('IT'),
+('Finance'),
+('Marketing'),
+('Sales'),
+('Engineering'),
+('Legal'),
+('Customer Service'),
+('Product Management'),
+('Research and Development');
 
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
+-- Insert data into the role table
+INSERT INTO role (title, salary, department_id)
+VALUES
+('Chief Executive Officer', 200000.00, 1),
+('Marketing Manager', 100000.00, 3),
+('HR Director', 90000.00, 2),
+('Sales Manager', 80000.00, 4),
+('Engineering Manager', 80000.00, 5),
+('Legal Counsel', 80000.00, 6),
+('Customer Service Manager', 70000.00, 7),
+('Product Manager', 70000.00, 8),
+('Research and Development Manager', 70000.00, 9);
+
+-- Insert data into the employee table
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
 ('John', 'Doe', 1, NULL),
 ('Jane', 'Doe', 2, 1),
@@ -32,6 +38,3 @@ VALUES
 ('Jared', 'Doe', 7, 1),
 ('Jasmine', 'Doe', 8, 1),
 ('Jesse', 'Doe', 9, 1);
-
-
-
