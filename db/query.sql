@@ -1,0 +1,8 @@
+-- SELECT department_id, department_name FROM departments;
+-- FROM roles;
+-- FROM employees;
+-- LEFT JOIN roles ON roles.department_id = departments.id;
+-- LEFT JOIN employees ON employees.role_id = roles.id;
+-- LEFT JOIN employees ON employees.manager_id = employees.id;
+-- ON reviews.employee_id = employees.id;
+-- ORDER BY departments.department_name;
