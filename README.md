@@ -20,7 +20,7 @@
 
 
 
-  <!-- embed gif of video -->
+  [Demo](https://youtu.be/HTZcFw8pgRk)
 
   
   ## Usage
