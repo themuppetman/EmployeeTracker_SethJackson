@@ -16,9 +16,8 @@
   ## Installation
   With node installed, the user will have to use the employee_db database, run node on the index.js file, and then view, add, and update employee information, as they see fit.  
 
-  [Demo](https://youtu.be/HTZcFw8pgRk)
+  <img width="586" alt="EmpTrackPic" src="https://github.com/user-attachments/assets/e6b5d452-65fe-4b92-97cd-590c07ea6d52">
 
-  ![Uploading EmpTrackGif.gif…]()
 
 
   <!-- embed gif of video -->
